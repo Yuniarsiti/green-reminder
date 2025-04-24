@@ -17,7 +17,7 @@ const setActive = (tab) => {
 <template>
     <nav v-if="route?.name != 'login'" class="navbar navbar-expand-lg">
         <div class="container">
-            <img src="../assets/img/profile.png" alt="logo" class="logo">
+            <img src="../assets/img/logo.png" alt="logo" class="logo">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
